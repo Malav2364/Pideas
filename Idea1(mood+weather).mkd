@@ -1,0 +1,84 @@
+# Project Brief: Mood-Weather Nexus  
+**Tagline**: *"Understand how your mood interacts with the world around you."*  
+
+---
+
+## **Objective**  
+Build a minimalist web app that:  
+1. Logs daily moods and integrates weather/news data.  
+2. Uses AI to uncover hidden correlations (e.g., "Rainy days make you 25% less productive").  
+3. Provides actionable insights to improve mental well-being.  
+
+---
+
+## **Core Features**  
+| Feature                     | Description                                                                 |  
+|-----------------------------|-----------------------------------------------------------------------------|  
+| **Daily Mood Logging**       | Slider (1-5) + notes + wearable integration (Fitbit/Apple Health).          |  
+| **Weather & News Analysis**  | Real-time data from [OpenWeatherMap](https://openweathermap.org/) and [GNews API](https://gnews.io/). |  
+| **Interactive Dashboard**    | Charts/heatmaps showing mood vs. weather, mood vs. news sentiment.          |  
+| **Predictive Insights**      | LSTM model forecasts tomorrow’s mood based on trends.                       |  
+| **Actionable Tips**          | AI-generated suggestions (e.g., "Meditate on stressful news days").         |  
+
+---
+
+## **Tech Stack**  
+| Component       | Tools                                                                 |  
+|------------------|-----------------------------------------------------------------------|  
+| **Frontend**     | React.js + Chart.js + Material-UI.                                   |  
+| **Backend**      | FastAPI (Python) + PostgreSQL + Redis.                               |  
+| **ML Models**    | LSTM (mood prediction), BERT (news sentiment).                       |  
+| **APIs**         | [OpenWeatherMap](https://openweathermap.org/), [GNews API](https://gnews.io/), Google Calendar. |  
+| **Deployment**   | Docker + AWS EC2 (backend) + Vercel (frontend).                      |  
+| **Security**     | JWT + HTTPS + GDPR-compliant encryption.                             |  
+
+---
+
+## **Pros**  
+- ✅ **Unique Value**: Bridges mental health tracking with environmental data.  
+- ✅ **User-Friendly**: Clean UI with no 3D/gamification complexity.  
+- ✅ **Scalable**: Easy to add new data sources (e.g., Spotify, social media).  
+- ✅ **Privacy-First**: Anonymized data storage and processing.  
+
+---
+
+## **Challenges & Solutions**  
+| Challenge                  | Solution                                                                 |  
+|----------------------------|--------------------------------------------------------------------------|  
+| **Data Privacy**           | Encrypt data at rest/in transit; anonymize ML training data.             |  
+| **Model Accuracy**         | Use pretrained models (BERT) + let users flag incorrect predictions.     |  
+| **User Retention**         | Email summaries + achievement badges (e.g., "7-Day Consistency Streak").|  
+| **Real-Time Data Lag**     | Cache frequent API calls + use edge computing (Cloudflare Workers).      |  
+
+---
+
+## **Feasibility Checklist**  
+| Task                        | Feasibility | Owner          |  
+|-----------------------------|-------------|----------------|  
+| Frontend Dashboard          | High        | UI/UX Team     |  
+| Mood Prediction Model (LSTM) | Medium      | ML Team        |  
+| API Integration              | High        | Backend Team   |  
+| Deployment Pipeline          | Medium      | DevOps Team    |  
+
+---
+
+## **Why This Works**  
+- **Relevance**: Universal appeal (moods, weather, news).  
+- **Low Effort, High Insight**: 2-minute daily input for personalized insights.  
+- **Research-Backed**: Aligns with studies on weather/mood correlations.  
+
+---
+
+## **Next Steps**  
+1. **Team Roles**: Assign frontend, backend, ML, and data engineers.  
+2. **Sprint Plan**:  
+   - **Week 1-2**: MVP (mood logging + weather API).  
+   - **Week 3-4**: Integrate ML models + dashboard.  
+3. **Tools Setup**: Docker, AWS, React.  
+
+---
+
+**Share this document** with your team and discuss:  
+- Feature prioritization.  
+- Potential roadblocks (e.g., API rate limits).  
+- Ethical considerations (data privacy, mental health impact).  
