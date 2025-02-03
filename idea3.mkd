@@ -12,6 +12,7 @@ OpportunityLens is an AI-powered platform dedicated to democratizing opportunity
 - [Key Technological Features](#key-technological-features)
   - [Capability Fingerprint Generation](#capability-fingerprint-generation)
   - [Global Opportunity Mapping](#global-opportunity-mapping)
+  - [Personalized Interest Test](#personalized-interest-test)
 - [Unique Value Proposition](#unique-value-proposition)
 - [Technological Architecture](#technological-architecture)
 - [Practical Application Scenarios](#practical-application-scenarios)
@@ -62,14 +63,21 @@ OpportunityLens employs a breakthrough approach by:
 - **Personalized Development Pathways:** Offers tailored guidance and resources for career advancement.
 - **Real-Time Opportunity Identification:** Keeps users informed of emerging prospects across borders.
 
+### Personalized Interest Test
+
+- **Purpose:** Augments the matching process by evaluating the user's personal interests and passions.  
+- **Assessment Structure:** Utilizes a series of interactive questions and scenario-based queries to understand the user’s inherent interests, career aspirations, and motivational drivers.  
+- **Tailored Outputs:** Integrates the results of the interest test with the capability fingerprint to provide a more personalized set of opportunities and career development insights.  
+- **Adaptive Learning:** Uses machine learning techniques to refine recommendations over time based on user feedback and evolving interests.
+
 ## Unique Value Proposition
 
 OpportunityLens stands apart by:
 
 - **Identifying Hidden Talents:** Spotlighting talents in underserved communities.
 - **Fostering Global Mobility:** Connecting individuals to international opportunities.
-- **Personalized Career Insights:** Delivering customized development and growth plans.
-- **Revolutionizing Recruitment:** Shifting focus from current skills to latent potential.
+- **Personalized Career Insights:** Delivering customized development and growth plans that consider both inherent capabilities and personal interests.
+- **Revolutionizing Recruitment:** Shifting focus from current skills to latent potential and passions.
 
 ## Technological Architecture
 
@@ -116,6 +124,14 @@ OpportunityLens represents more than just a technological solution—it embodies
 
 ## Differentiation Factors
 
-- **Beyond Traditional Job Platforms:** Focusing on latent potential rather than only current skills.
+- **Beyond Traditional Job Platforms:** Focusing on latent potential and personal interests rather than solely current skills.
 - **Global & Inclusive:** Serving a diverse, international community.
-- **Personalized Development Ecosystem:** Offering unique, tailored guidance to each user.
+- **Personalized Development Ecosystem:** Offering unique, tailored guidance to each user based on their capabilities and interests.
+
+## Getting Started
+
+To start exploring OpportunityLens:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/opportunitylens.git
